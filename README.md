@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [[Add live site URL here](https://eight-08.github.io/perfume-card-challenge/)]
+- Solution URL: https://github.com/eight-08/perfume-card-challenge
+- Live Site URL: https://eight-08.github.io/perfume-card-challenge/
 
 ## My process
 
