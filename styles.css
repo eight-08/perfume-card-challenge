@@ -1,0 +1,149 @@
+body {
+    background-color: hsl(30, 38%, 92%) ;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 386px;
+    width: 525px;
+    margin-top: 15vh;
+    border-radius: 15px;
+    
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0;
+}
+
+
+
+.image {
+    width: 49%;
+    border-radius: 15px 0 0 15px;
+    display: inline-block;
+    margin: 0;
+}
+
+.content-container {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    margin: 5px 0 15px 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.775rem;
+    margin: 20px 0 10px 0;
+
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.775rem;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+    margin: 10px 0;
+}
+
+.cost-container h4, h5{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    margin: 0;
+    color: hsl(158, 36%, 37%);
+}
+
+h5 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+
+button {
+    margin: 0;
+    border: none;
+    width: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button img {
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+
+button:hover {
+    background-color: hsl(158, 33%, 21%);
+}
+
+.image-sm {
+    display: none;
+}
+
+
+.attribution {
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .image-lg {
+        display: none;
+    }
+
+    .image-sm {
+        display: block;
+    }
+
+    body {
+        margin: 5%;
+    }
+
+    .main-container {
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+        margin-top: auto;
+    }
+
+    .image {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .content-container {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    h1 {
+        font-size: 1.85rem;
+    }
+    
+}
